@@ -7,9 +7,14 @@ This project allows users to manage reservations, tables, and scheduling efficie
 
 ## 📦 Project Setup
 
-### 1️⃣ Clone the repository
+### Clone the repository
 ```bash
 * git clone https://github.com/Osama6622/Restaurant-Reservation-System.git
 * cd Restaurant-Reservation-System
+
+
+
+### Project Setup
+```bash
 * npm install
 * npm run dev
