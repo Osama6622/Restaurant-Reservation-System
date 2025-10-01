@@ -1,0 +1,29 @@
+.day-group {
+    .day-label {
+        color: var(--Neutrals-Mid-gray-text);
+        margin-bottom: .5rem;
+    }
+    .slots-wrapper {
+        width: 100&;
+        border: 1px solid var(--Neutrals-Light-grey);
+        border-radius: .25rem;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        .slots-input {
+            flex: 1;
+        }
+        .add-btn {
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 0 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            background: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

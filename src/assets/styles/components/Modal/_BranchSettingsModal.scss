@@ -1,0 +1,35 @@
+.setting-branch-modal {
+    .modal-body {
+        .branch-hours-info {
+            padding: 1rem 1rem;
+            border-top: 1px solid var(--Primary-Primary);
+            border-bottom: 1px solid var(--Primary-Primary);
+            background-color: var(--Primary-Primary-light);
+            color: var(--Primary-Primary);
+        }
+        .form {
+            margin: 1rem 0;
+            .form-group {
+                margin-bottom: 1rem;
+                .label {
+                    color: var(--Neutrals-Mid-gray-text);
+                    margin-bottom: .5rem;
+                    &.required {
+                        position: relative;
+                        &::after {
+                            content: "*";
+                            position: absolute;
+                            top: 0;
+                            inset-inline-end: -.5rem;
+                            color: var(--RAG-Red);
+                        }
+                    }
+                }
+                .input {
+                    min-height: 40px;
+                }
+            }
+            
+        }
+    }
+}

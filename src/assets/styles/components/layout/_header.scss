@@ -1,0 +1,18 @@
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: var(--Neutrals-Light-grey);
+
+    .header-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        &__title {
+            flex: 1;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--black);
+        }
+    }
+}

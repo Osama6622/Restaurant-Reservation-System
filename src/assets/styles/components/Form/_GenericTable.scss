@@ -1,0 +1,29 @@
+.card {
+    border: none !important;
+    padding: 1rem;
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+
+        tbody {
+            .clickable {
+                color: var(--Primary-Primary);
+                font-weight: 600;
+                cursor: pointer;
+                transition: all .3s ease;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
