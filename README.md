@@ -1,5 +1,15 @@
-# Vue 3 + Vite
+# 🍽️ Restaurant Reservation System
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A restaurant reservation system built with **Vue 3** and **Vite**.  
+This project allows users to manage reservations, tables, and scheduling efficiently with a modern UI.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 📦 Project Setup
+
+### 1️⃣ Clone the repository
+```bash
+* git clone https://github.com/Osama6622/Restaurant-Reservation-System.git
+* cd Restaurant-Reservation-System
+* npm install
+* npm run dev
